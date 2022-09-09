@@ -1,6 +1,6 @@
 # Install dependencies
 FROM appimagecrafters/appimage-builder
-LABEL version="20220902"
+LABEL version="20220909"
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get install -y build-essential software-properties-common python3.6 curl git wget unzip libgconf-2-4 gdb libstdc++6 libglu1-mesa fonts-droid-fallback lib32stdc++6 psmisc
 RUN apt-get install -y --no-install-recommends cmake ninja-build clang build-essential pkg-config libgtk-3-dev liblzma-dev lcov
